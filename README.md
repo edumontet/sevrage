@@ -11,3 +11,7 @@ Dans le dépôt GitHub : **Settings › Pages**, source **Deploy from a branch**
 ## Technique
 
 Un seul fichier `index.html` (HTML, CSS et JavaScript), sans étape de build ni dépendance.
+
+## Mises à jour automatiques
+
+L'appli charge `update.js` : quand on la rouvre, elle compare ses fichiers à ceux du serveur et se recharge seule s'ils ont changé. Pas besoin de la réinstaller depuis l'écran d'accueil.
